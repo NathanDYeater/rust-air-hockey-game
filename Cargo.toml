@@ -1,7 +1,13 @@
 [package]
-name = "air_hockey"
+name = "air_hockey"  # must be unique on crates.io
 version = "0.1.0"
 edition = "2024"
+authors = ["Nathan Yeater <nathandy30@gmail.com>"]
+description = "A simple ping game that uses air hockey physics with paddles and a puck"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/NathanDYeater/rust-air-hockey-game"
+
 
 [dependencies]
 bevy = "0.17.2"
